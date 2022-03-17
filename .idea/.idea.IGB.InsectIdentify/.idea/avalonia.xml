@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="IGB.InsectIdentify/App.axaml" value="IGB.InsectIdentify/IGB.InsectIdentify.csproj" />
+        <entry key="IGB.InsectIdentify/Icons.axaml" value="IGB.InsectIdentify/IGB.InsectIdentify.csproj" />
+        <entry key="IGB.InsectIdentify/Views/MainWindow.axaml" value="IGB.InsectIdentify/IGB.InsectIdentify.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
