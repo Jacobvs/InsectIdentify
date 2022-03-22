@@ -27,19 +27,30 @@
         </ExperimentalAcrylicBorder>
         
         <Grid RowDefinitions="Auto, Auto, Auto, Auto" Margin="30">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="20">
                 <TextBlock Text="Not Logged In" VerticalAlignment="Center"/>
                 <Button VerticalAlignment="Center"
                         Command="{Binding DemoButton}">
                     <PathIcon Data="{StaticResource person_accounts_regular}"/>
                 </Button>
             </StackPanel>
-            <Rectangle Grid.Row="1" Fill="Blue" Height="44"/>
-            <Rectangle Grid.Row="2" Fill="Green" Height="44"/>
-            <Rectangle Grid.Row="3" Fill="Orange" Height="44"/>
+            <TextBlock Grid.Row="1" Text="Welcome to the IGB Insect Identification Software" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="50"/>
+            <Button Grid.Row="1" VerticalAlignment="Top"  HorizontalAlignment="Right" Margin="80"
+                    Content="Tutorial" 
+                    Command="{Binding DemoButton}">
+            </Button>
+            <Button Grid.Row="2" VerticalAlignment="Center"  HorizontalAlignment="Center" Margin="80"
+                    Content="Begin Identification" 
+                    Command="{Binding DemoButton}">
+            </Button>
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Spacing="5">
+                <TextBlock Text="X insects identified" VerticalAlignment="Center"/>
+                <Button VerticalAlignment="Center"  HorizontalAlignment="Center" Margin="80"
+                        Content="Export" 
+                        Command="{Binding DemoButton}">
+                </Button>
+            </StackPanel>
         </Grid>
         
-       
     </Panel>
-    
 </Window>
